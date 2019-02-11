@@ -1,0 +1,173 @@
+@media (orientation:portrait){
+	 html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+  }
+
+  img{
+  	width: 50% ;
+  	float: center;
+
+  }
+  #Rick , #Big{
+      display:none;
+  }
+  #guantelete{
+   
+	margin-top: 12%;
+	cursor: grabbing;
+
+}
+}
+ @media (orientation: landscape) {
+  
+ img
+	{	
+	   width: 25%;
+	   float: center;
+
+}
+
+}
+body{
+	background: url(imagenes/space.png) center fixed;
+	overflow: hidden;
+	background-size: cover;
+}
+img{
+	
+	position: absolute;
+	filter: drop-shadow(5px 15px 4px black);
+	transition-duration: 1s ;
+}
+img:hover{
+ transform: scale(1.08);
+}
+
+
+
+#flex-container{
+	display: flex;
+	justify-content: center;
+}
+
+#guantelete{
+    width: 25%;
+	margin-top: 12%;
+	cursor: grabbing;
+
+}
+#Logo{
+	width: 32%;
+	margin-top: 36%;
+	pointer-events: none;
+
+}
+
+/*Personajes */
+
+#Arrow{
+	margin-top: 10%;
+	margin-left: 11%;
+	width: 13%;
+	z-index: -1;
+}
+
+#Batman{
+	width: 18%;
+	margin-top: 28%;
+	margin-left: 1.5%;
+}
+#Big{
+  	width: 80%;
+	margin-top: -17%;
+	margin-left: 35.5%;
+	opacity:0.1;
+	z-index: -5;
+	
+
+}
+#Capitan{
+	width: 18%;
+	margin-top: 23%;
+	margin-left: -8.5%;
+}
+#Chapulin{
+	width: 16%;
+	margin-top: 18%;
+	margin-left: -14%;
+	z-index: -1;
+}
+#Elon{
+	width: 10.5%;
+	margin-top: 2.3%;
+	z-index: -1;
+}
+#Goku{
+	width: 16%;
+	margin-top: 5%;
+	margin-left: -9%;
+	z-index: -2;
+}
+#Hulk{
+	width: 32%;
+	margin-top: -1.5%;
+	margin-left: -15.5%;
+	z-index: -3;
+}
+#Metroid{
+	width: 16%;
+	margin-top: 17%;
+	margin-left: 13.5%;
+	z-index: -1;
+}
+#Octo{	
+	width: 35.0%;
+	margin-top: 13%;
+	margin-left: -15.5%;
+	z-index: -1;
+}
+#Rick{
+	width: 65%;
+	margin-top: -1%;
+	margin-left: -35%;
+	opacity:0.3;
+	z-index: -2;
+	pointer-events: none;
+
+}
+#Stark{
+	width: 20%;
+	margin-top: 23%;
+	margin-left: 13%;
+}
+#Shaggy{
+	width: 22%;
+	margin-top: 8%;
+	margin-left: 19%;
+	z-index: -2;
+}
+#Stan{
+	width: 15%;
+	margin-top: 8.7%;
+	margin-left: 6%;
+	opacity: 0.4;
+	z-index: -1;
+	
+
+}
+#Thor{
+	width: 18%;
+	margin-top: -1.5%;
+	margin-left: 8%;
+	z-index: -3;
+}
+
+
+
