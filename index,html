@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Avengers EndGame</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+	
+		<div id="flex-container">	
+			<img onclick="Snap()" id="guantelete" src="imagenes/guantelete.png">
+				<img onclick="sound()" id="Stark" src="imagenes/Stark.png">
+				<img onclick="link()" id="Capitan" src="imagenes/capitan.png">
+				<img id="Hulk" src="imagenes/Hulk.png">
+				<img id="Thor" src="imagenes/Thor.png">
+				<img id="Octo" src="imagenes/Octo.png">
+				<img id="Chapulin" src="imagenes/Chapulin.png">
+				<img id="Arrow" src="imagenes/Arrow.png">
+				<img id="Metroid" src="imagenes/Metroid.png">
+				<img id="Goku" src="imagenes/goku.png">
+				<img id="Shaggy" src="imagenes/Shaggy.png">
+				<img id="Batman" src="imagenes/Batman.png">
+				<img id="Elon" src="imagenes/Me.png">
+
+				<img id="Rick" src="imagenes/Rick.png">
+				<img id="Logo" src="imagenes/Logo.png">
+				<img id="Stan" onclick="restore()" src="imagenes/Stan.png">
+				<img id="Big"  src="imagenes/big.png">
+
+
+		</div>
+</html>
